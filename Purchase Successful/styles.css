@@ -1,0 +1,74 @@
+html {
+  background-color: #1C9E83;
+  font-family: 'Roboto';
+  height: 100%;
+}
+
+p {
+    display: inline;
+    color: #5C5C5C;
+    margin: 0px;
+}
+
+body {
+  background: white;
+  border-radius: 5px;
+  width: 500px;
+  height: 400px;
+  margin: 100px auto 0px auto;
+  padding: 50px;
+  -webkit-box-shadow: 0px 8px 14px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 8px 14px -6px rgba(0,0,0,0.75);
+  box-shadow: 0px 8px 14px -6px rgba(0,0,0,0.75);
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+h4 {
+  color: #A8A8A8;
+  font-weight: normal;
+  font-size: 0.9em;
+  padding-bottom: 10px;
+
+}
+
+.price {
+  font-weight: bold;
+  float: right;
+  color: black;
+  font-size: 1.2em;
+}
+
+footer {
+  overflow: hidden;
+  position: relative;
+  height: 58.7%;
+  width: 115%;
+  margin-left: -38px;
+}
+
+.bicycle{
+  width: 100%;
+  margin: -60px 0px 0px 0px;
+}
+.person {
+  width: 5%;
+  float: right;
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  border: 1px solid #d6d6d6;
+  padding: 7px;
+  margin-top: -7px;
+    transition: all .2s linear;
+}
+.person:hover {
+  -webkit-box-shadow: 0px 0px 0px 6px rgba(0,0,0,0.06);
+  -moz-box-shadow: 0px 0px 0px 6px rgba(0,0,0,0.06);
+  box-shadow: 0px 0px 0px 6px rgba(0,0,0,0.06);
+    transition: all .2s linear;
+}

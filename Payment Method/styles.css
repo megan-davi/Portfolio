@@ -1,0 +1,81 @@
+* {
+    font-family: 'Roboto';
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+html {
+    background: url("img/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+p {
+    display: inline;
+}
+
+.wrapper {
+    display: grid;
+    background: white;
+    border-radius: 5px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.icon {
+    width: 100px;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+.dots {
+    margin: 20px 0px -10px 0px;
+    font-size: 40px;
+    color: lightgray;
+    text-align: center;
+}
+
+.header {
+    margin: 20px auto 0px auto;
+    padding: 10px 0 50px 0;
+}
+.header>p {
+  line-height: 40px;
+}
+
+.option {
+    border-top: 1px solid lightgrey;
+}
+.option:hover {
+  background-color: #F5F5F5;
+  transition: all .2s ease;
+}
+
+.option>p {
+    font-size: 25px;
+    position: absolute;
+    margin: 37px 10px;
+    color: lightgray;
+}
+
+.next {
+  background-color: cornflowerblue;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  line-height: 100px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.next>img {
+  width: 30px;
+}
+.next:hover {
+  background-color: #7ea6ed;
+  transition: all .2s ease;
+}
